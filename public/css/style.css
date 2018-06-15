@@ -10,6 +10,9 @@ body{
     background: url("../images/bg5.jpg") center center;
     background-size: cover;
 }
+.content-wrapper{
+    margin-top: 50px;
+}
 .navbar {
     padding-top: 40px;
     transition: all 1.2s ease;
@@ -34,8 +37,18 @@ a:hover{
 nav.scrolled {
     background-color: #c9045e !important;
     padding-top: 8px !important;
-    transition: all 1.2s linear;
+    transition: all .3s linear;
 }
 .scrolled a:hover{
     color: #fff !important;
+}
+.info-containers{
+    text-align: center;
+    padding: 15px;
+}
+.material-icons{
+    font-size: 65px;
+}
+.info-headers{
+    margin: 20px auto;
 }

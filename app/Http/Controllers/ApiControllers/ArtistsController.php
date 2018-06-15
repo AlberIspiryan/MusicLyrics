@@ -34,5 +34,6 @@ class ArtistsController extends BaseController
     {
         $info = "albums";
 
+
     }
 }
